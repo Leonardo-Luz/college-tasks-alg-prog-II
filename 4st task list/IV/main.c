@@ -19,10 +19,10 @@ MENU:
 void Menu()
 {
     printf("MENU:");
-    printf("0 – Sair");
-    printf("1 – Listar produtos");
-    printf("2 – Cadastrar produto");
-    printf("3 – Apagar produto");
-    printf("4 – Vender");
+    printf("0 - Sair");
+    printf("1 - Listar produtos");
+    printf("2 - Cadastrar produto");
+    printf("3 - Apagar produto");
+    printf("4 - Vender");
     printf("5 - Total vendido");    
 }
