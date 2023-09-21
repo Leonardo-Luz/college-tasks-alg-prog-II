@@ -8,9 +8,9 @@ typedef struct
     int venda;
 }Produto;
 
-Produto produto;
-
-int CadastrarProduto();
-int RemoverProduto();
-int VenderProduto();
+int CadastrarProduto( Produto produto );
+int RemoverProduto( int cod );
+int VenderProduto( int cod , int qtd_ );
+int QtdProduto();
+Produto ObterProduto( int indice );
 
