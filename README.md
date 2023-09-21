@@ -1,2 +1,2 @@
 # college-tasks-alg-prog-II
-new repository
+College Task list
