@@ -1,0 +1,47 @@
+
+Para realizar os exercícios abaixo, faça download do projeto do moodle. Siga as seguintes
+orientações:
+
+• Você precisa programar apenas as funções solicitadas.
+
+• As funções solicitadas estão no início do arquivo “main.c”, então você precisa modificar
+a assinatura das mesmas conforme solicitado no enunciado da questão.
+
+• Não mude o nome da função, modifique os parâmetros e os tipos retornado pela
+função.
+
+• Não precisa fazer entrada/saída de dados.
+
+• Não modifique a função main.
+
+• Quando você executar o programa, receberá uma nota de 0 a 10 por questão.
+
+1. Crie uma função que recebe 2 valores reais (passagem de parâmetro por valor). A
+função deve calcular a média e devolver o resultado. O nome da função deve ser
+CalculaMedia.
+
+2. Crie uma função que recebe 2 parâmetros: um array de números inteiros e o tamanho
+do array. A função deverá somar os valores contidos no array. Retorne o resultado
+soma. O nome da função deve ser SomarArray.
+
+3. Crie uma função que recebe como parâmetro um valor inteiro (passagem de
+parâmetro por valor). Essa função retornará os próximos 2 valores (utilize passagem de
+parâmetro por referência para devolver os valores. O nome da função deve ser
+ProximosValores.
+
+4. Considerando o registro Retangulo contendo os seguintes campos: largura, altura,
+perímetro e area, crie uma função que recebe como parâmetro dois valores com
+vírgula: a largura e altura. A sua função deverá retornar um Retangulo, sendo que esse
+Retangulo já terá os valores da área e do perímetro calculados. Utilize as equações
+abaixo. O nome da função deve ser CriaRetangulo.
+
+ÁREA = LARGURA x ALTURA
+PERÍMETRO= 2 x LARGURA + 2 x ALTURA
+
+5. Crie uma função que recebe como parâmetro um Retangulo (passagem de parâmetro
+por referência). Atualize os valores da área e do perímetro utilizando os valores
+contidos nos campos largura e altura. O nome da função deve ser ModificaRetangulo.
+
+6. Crie uma função que recebe como parâmetro um array de Retangulos e o tamanho do
+array. O seu programa deverá retornar a soma das áreas desses retângulos. O nome da
+função deve ser SomaAreas.
